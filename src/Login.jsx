@@ -19,7 +19,7 @@ import { Formik } from 'formik';
 //Assets
 import logo from '../src/assets/imgs/logo.png'
 
-//Page Style
+//Page Styles
 const styles = {
     form: {
         height: '100vh',
@@ -63,7 +63,6 @@ const styles = {
 export default function Login() {
 
     //State 
-
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
